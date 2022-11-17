@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Nov 14 08:32:35 2022
+# Process ID: 2372
+# Current directory: /home/ayuba/workspace/THESIS/hardware
+# Command line: vivado
+# Log file: /home/ayuba/workspace/THESIS/hardware/vivado.log
+# Journal file: /home/ayuba/workspace/THESIS/hardware/vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script '/home/ayuba/.Xilinx/Vivado/Vivado_init.tcl'
+start_gui
+WARNING: [Board 49-91] Board repository path '~/.Xilinx/Vivado/2020.2.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+xhub::install [xhub::get_xitems xilinx.com:Vivado_example_project:zynq7000_preset:1.0]
+INFO: [xhubtcl 76-32] Installing object 'xilinx.com:Vivado_example_project:zynq7000_preset:1.0' ...
+INFO: [Common 17-1570] Installing object xilinx.com:Vivado_example_project:zynq7000_preset:1.0 from remote host https://github.com/Xilinx/XilinxCEDStore.git
+INFO: [Common 17-1573] Object xilinx.com:Vivado_example_project:zynq7000_preset:1.0 has been installed successfully.
+WARNING: [Board 49-91] Board repository path '~/.Xilinx/Vivado/2020.2.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+set_param ced.repoPaths {/home/ayuba/.Xilinx/Vivado/2020.2/xhub/ced_store/Vivado_example_project}
+xhub::install [xhub::get_xitems xilinx.com:Vivado_example_project:ext_platform:1.0]
+INFO: [xhubtcl 76-32] Installing object 'xilinx.com:Vivado_example_project:ext_platform:1.0' ...
+INFO: [Common 17-1570] Installing object xilinx.com:Vivado_example_project:ext_platform:1.0 from remote host https://github.com/Xilinx/XilinxCEDStore.git
+INFO: [Common 17-1573] Object xilinx.com:Vivado_example_project:ext_platform:1.0 has been installed successfully.
+WARNING: [Board 49-91] Board repository path '~/.Xilinx/Vivado/2020.2.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+xhub::install [xhub::get_xitems xilinx.com:Vivado_example_project:mb_preset:1.0]
+INFO: [xhubtcl 76-32] Installing object 'xilinx.com:Vivado_example_project:mb_preset:1.0' ...
+INFO: [Common 17-1570] Installing object xilinx.com:Vivado_example_project:mb_preset:1.0 from remote host https://github.com/Xilinx/XilinxCEDStore.git
+INFO: [Common 17-1573] Object xilinx.com:Vivado_example_project:mb_preset:1.0 has been installed successfully.
+WARNING: [Board 49-91] Board repository path '~/.Xilinx/Vivado/2020.2.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+xhub::refresh_catalog [xhub::get_xstores xilinx_board_store]
+xhub::refresh_catalog: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 7291.113 ; gain = 0.000 ; free physical = 14953 ; free virtual = 19933
+xhub::install [xhub::get_xitems xilinx.com:Vivado_example_project:mpsoc_preset:1.0]
+INFO: [xhubtcl 76-32] Installing object 'xilinx.com:Vivado_example_project:mpsoc_preset:1.0' ...
+INFO: [Common 17-1570] Installing object xilinx.com:Vivado_example_project:mpsoc_preset:1.0 from remote host https://github.com/Xilinx/XilinxCEDStore.git
+INFO: [Common 17-1573] Object xilinx.com:Vivado_example_project:mpsoc_preset:1.0 has been installed successfully.
+WARNING: [Board 49-91] Board repository path '~/.Xilinx/Vivado/2020.2.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 14 09:08:03 2022...

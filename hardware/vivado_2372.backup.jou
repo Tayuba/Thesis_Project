@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Nov 14 08:32:35 2022
+# Process ID: 2372
+# Current directory: /home/ayuba/workspace/THESIS/hardware
+# Command line: vivado
+# Log file: /home/ayuba/workspace/THESIS/hardware/vivado.log
+# Journal file: /home/ayuba/workspace/THESIS/hardware/vivado.jou
+#-----------------------------------------------------------
+start_gui
+xhub::install [xhub::get_xitems xilinx.com:Vivado_example_project:zynq7000_preset:1.0]
+set_param ced.repoPaths {/home/ayuba/.Xilinx/Vivado/2020.2/xhub/ced_store/Vivado_example_project}
+xhub::install [xhub::get_xitems xilinx.com:Vivado_example_project:ext_platform:1.0]
+xhub::install [xhub::get_xitems xilinx.com:Vivado_example_project:mb_preset:1.0]
+xhub::refresh_catalog [xhub::get_xstores xilinx_board_store]
+xhub::install [xhub::get_xitems xilinx.com:Vivado_example_project:mpsoc_preset:1.0]
